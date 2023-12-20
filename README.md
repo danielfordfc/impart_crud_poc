@@ -7,6 +7,11 @@ Simple Docker CRUD app using Postgres backend
 - Have python installed
 - Have pip installed
 
+If you want to create a virtualenv
+
+- setup a virtual environment for the project using `python -m venv venv`
+- activate the virtual environment in windows using `venv\Scripts\activate.bat` or `venv/Scripts/Activate.ps1` if you're using powershell
+
 Install requirements from requirements.txt: `pip install -r requirements.txt`
 
 Build the App: Run `docker-compose build` to build your app.
